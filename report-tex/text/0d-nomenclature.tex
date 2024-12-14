@@ -1,0 +1,39 @@
+\chapter*{Nomenclature}\label{ch:nomenclature}
+\addcontentsline{toc}{chapter}{Nomenclature}
+\markboth{Nomenclature}{}
+
+%% It can be done with the nomencl package too.
+% -----------------------------------------------------
+% \usepackage[intoc]{nomencl} % nomenclature in ToC
+% \makenomenclature
+% \renewcommand{\nomname}{Symbols and Definitions}
+% \renewcommand{\nompreamble}{This section provides a reference for the notation used throughout the project. \vspace{2em}}
+% \setlength{\nomlabelwidth}{4em}
+% -----------------------------------------------------
+
+This section serves as a reference for the notation used throughout the text.
+\vspace{1em}
+
+\renewcommand{\arraystretch}{1.2}
+
+{\small                                 % smaller font size for the table
+\begin{xltabular}{\textwidth}{ 
+    >{\centering\arraybackslash}p{0.12\textwidth}   % first column: 12% of text width
+    >{\centering\arraybackslash}p{0.2\textwidth}
+    X                                               % third column: take up the remaining space
+    >{\centering\arraybackslash}p{0.11\textwidth}   % fourth column: 11% of text width
+}
+    \hline
+    \textbf{Symbol} & \textbf{Code} & \multicolumn{1}{c}{\textbf{Description}} & \textbf{Value} \\      % header
+    \hline
+        $T_0$ & \code{t0} & Typical time scale & \SI{2}{\hour} \\
+        $R_0$ & \code{r0} & Typical length scale & \SI{5}{\micro\meter} \\
+    \hline
+\end{xltabular}
+}
+
+
+
+
+
+
