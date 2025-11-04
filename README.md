@@ -9,5 +9,5 @@ A user-friendly and organised LaTeX template for a final thesis. The code for my
 - **Modular design:** separates text, figures, and preamble for better organisation.
 - **PDF output options:**
   - Digital: no extra blank pages and equal margins.
-  - Printed: symmetric margins with extra blank pages to ensure sections start on the right (≠left) side.
+  - Printed: symmetric margins with extra blank pages to ensure sections start on the right hand side.
 
